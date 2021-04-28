@@ -1,0 +1,50 @@
+﻿<div class="container">
+
+    <div class="row">
+        <div class="col-6">
+
+            User : <input type="text" name="name" value="" id="name" />
+
+        </div>
+        <div class="col-6"></div>
+    </div>
+    <br />
+    <div class="row">
+        <p>POLL:What is your fvourite framework</p>
+    </div>
+    <div class="row">
+        <div class="col-12">
+
+            <input type="radio" name="framework" id="core" value="ASP.net core" />
+            <label for="core">ASP.net core</label>
+            <br /><span id="coreBlock"></span><br />
+
+            <input type="radio" name="framework" id="mvc" value="ASP.net MVC" />
+            <label for="mvc">ASP.net MVC</label>
+            <br /><span id="mvcBlock"></span><br />
+
+            <input type="radio" name="framework" id="webform" value="ASP.net Web form" />
+            <label for="webform">ASP.net WebForm</label>
+            <br /><span id="webformBlock"></span><br />
+
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <input type="button" name="name" id="pollButton" value="Poll" />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6">
+            <ul id="messagesList"></ul>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/poll.js"></script>

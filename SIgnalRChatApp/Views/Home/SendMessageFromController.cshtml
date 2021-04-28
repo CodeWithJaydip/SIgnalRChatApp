@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "SendMessageFromController";
+}
+
+<h1>SendMessageFromController</h1>
+
+<form asp-action="SendMessageFromController" method="post" asp-controller="Home">
+   User: <input type="text" name="user" value="" /><br />
+   Message: <textarea name="message"></textarea>
+            <input type="submit" name="name" value="Send" />
+</form>
+
